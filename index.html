@@ -4,19 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Favorite Artists</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Header section with a title and navigation links -->
     <header>
       <h1>My Music World</h1>
       <!-- Use CSS to set font size, text alignment, and margin -->
-      <nav>
+      <nav id="main-nav">
         <ul>
           <!-- Use CSS to make the list horizontal: set display to flex or inline, and add gap or margin for spacing -->
           <li><a href="#artists">Artists</a></li>
           <!-- Style links with padding, color, and hover effects -->
           <li><a href="#genres">Genres</a></li>
           <li><a href="#playlists">Playlists</a></li>
+          <li><a href="project1.html">Project 1</a></li>
         </ul>
       </nav>
     </header>
@@ -37,25 +39,25 @@
       <section>
         <h2>Favorite Artists</h2>
         <article>
-          <h3>Artist Name</h3>
+          <h3>Tom Waits</h3>
           <!-- Add bottom margin and bold font style -->
           <p>
             This artist is known for their amazing vocals and creative lyrics.
           </p>
           <ul>
-            <li>Album 1</li>
+            <li class="artist-list-item">Rain Dogs</li>
             <!-- Add spacing between list items and style bullet points -->
-            <li>Album 2</li>
-            <li>Album 3</li>
+            <li class="artist-list-item">Swordfish Thrombones</li>
+            <li class="artist-list-item">Real Gone</li>
           </ul>
         </article>
         <article>
-          <h3>Another Artist</h3>
+          <h3>King Crimson</h3>
           <p>This artist blends genres to create a unique sound.</p>
           <ul>
-            <li>Album A</li>
-            <li>Album B</li>
-            <li>Album C</li>
+            <li>Red</li>
+            <li>In the court of the crimson king</li>
+            <li>Discipline</li>
           </ul>
         </article>
       </section>
@@ -64,10 +66,10 @@
       <section>
         <h2>Favorite Genres</h2>
         <ul>
-          <li data-popularity="high">Pop</li>
+          <li data-popularity="high">Rock</li>
           <!-- Use attribute selectors to style items based on data-popularity -->
-          <li data-popularity="medium">Rock</li>
-          <li data-popularity="low">Jazz</li>
+          <li data-popularity="medium">Rap</li>
+          <li data-popularity="low">Industrial</li>
         </ul>
       </section>
 

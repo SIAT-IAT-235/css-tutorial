@@ -1,0 +1,26 @@
+h1 {
+  color: teal;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+#main-nav {
+  background-color: lightgrey;
+  padding: 2px;
+  text-align: center;
+}
+
+#main-nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.artist-list-item {
+  display: inline;
+  color: red;
+  margin-right: 15px;
+  font-size: 2rem;
+}

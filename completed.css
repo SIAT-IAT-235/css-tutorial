@@ -1,0 +1,157 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header styles */
+#header {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 2em;
+  color: #333;
+}
+
+#main-nav .nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-item .nav-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 1em;
+}
+
+.nav-item .nav-link:hover {
+  text-decoration: underline;
+  color: #555;
+}
+
+/* Main content styles */
+#main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.intro-text {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* Artists section */
+.artist {
+  margin-bottom: 20px;
+}
+
+.artist-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.artist-description {
+  margin-bottom: 10px;
+}
+
+.album-list {
+  list-style: square inside;
+  padding: 0;
+}
+
+.album-item {
+  margin-bottom: 5px;
+}
+
+/* Genres section */
+.genres-list {
+  list-style: none;
+  padding: 0;
+}
+
+.genre-item {
+  margin-bottom: 5px;
+}
+
+.genre-item[data-popularity="high"] {
+  color: green;
+}
+
+.genre-item[data-popularity="medium"] {
+  color: orange;
+}
+
+.genre-item[data-popularity="low"] {
+  color: red;
+}
+
+#playlist-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Playlists section */
+.playlist {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.playlist-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.playlist-description {
+  margin-bottom: 10px;
+}
+
+.song-list {
+  list-style: circle inside;
+  padding: 0;
+}
+
+.song-item {
+  margin-bottom: 5px;
+}
+
+/* Footer styles */
+#footer {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.back-to-top {
+  text-decoration: none;
+  color: #333;
+}
+
+.back-to-top:hover {
+  text-decoration: underline;
+  color: #555;
+}
